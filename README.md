@@ -31,3 +31,42 @@ O projeto possui os seguintes arquivos:
 
 - Este projeto é um exemplo básico e pode ser expandido com funcionalidades adicionais, como recuperação de senha, validação de e-mail, e segurança aprimorada.
 - Certifique-se de implementar medidas de segurança adequadas ao lidar com senhas e dados de usuários.
+# Projeto backend-pagina
+Objetivo do Projeto
+O principal objetivo deste projeto é criar uma página web interativa, visualmente atraente e informativa que explique de forma clara e envolvente o que é o Back-End no desenvolvimento web. A ideia é ensinar, despertar interesse e guiar o visitante que está começando no mundo da programação ou deseja entender melhor como funciona o lado "invisível" de sites e aplicativos.
+
+ Tecnologias Utilizadas
+HTML5: Estrutura semântica do conteúdo da página.
+
+CSS3: Estilização visual, efeitos de animação, responsividade e interações com o usuário.
+
+JavaScript (leve): Para exibir dinamicamente o ano no rodapé.
+
+Google Fonts: Para melhorar a legibilidade e o visual do texto.
+
+(Opcional: imagens ilustrativas, ícones e animações)
+
+Estrutura do Site
+O site foi dividido em seções bem organizadas para facilitar a leitura e a navegação. Veja abaixo:
+
+1. Cabeçalho (Header)
+Contém o título principal da página: “O que é Back-End?”
+
+Usa um gradiente de cores e efeito de destaque para chamar atenção logo de início.
+
+2. Resumo
+Apresenta uma definição mais técnica e objetiva do que é o Back-End.
+
+Texto escrito de forma clara e acessível, com destaque para palavras-chave como processamento de dados, lógica e bastidores.
+
+3. Imagem Ilustrativa
+Espaço reservado para uma imagem visual que ajude o visitante a entender melhor o papel do Back-End.
+
+Com efeito de hover para torná-la interativa.
+
+4. Explicação com Exemplo Prático
+Explica o conceito usando uma analogia do dia a dia: o uso de um aplicativo de delivery.
+
+Escrita com tom informal, amigável e fácil de entender, aproximando o conteúdo do leitor iniciante.
+
+5. Carrossel de Linguagen

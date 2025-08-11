@@ -48,11 +48,12 @@
       <h2>Linguagens Populares no Back-End</h2>
       <div class="carousel">
         <div class="carousel-track">
-          <img src="imagens/php.png" alt="PHP" />
-          <img src="imagens/python.png" alt="Python" />
+          <img src="php.jpg" alt="PHP" />
+          <img src="Python.jpg" alt="Python" />
           <img src="imagens/node.png" alt="Node.js" />
-          <img src="imagens/java.png" alt="Java" />
+          <img src="Java.jpg" alt="Java" />
           <img src="imagens/ruby.png" alt="Ruby" />
+         <img src="MySQL.jpg" alt="MySQL" />
         </div>
       </div>
       <p class="quero-mais">
