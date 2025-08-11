@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O que é Back-End?</title>
     <link rel="stylesheet" href="back.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -53,13 +56,20 @@
         </section>
 
         <section class="superlink">
-            <a href="https://www.alura.com.br/artigos/o-que-e-back-end" target="_blank">🔗 Saiba mais sobre o Back-End</a>
+            <a href="https://www.alura.com.br/artigos/o-que-e-back-end" target="_blank">
+                🔗 Saiba mais sobre o Back-End
+            </a>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <?php echo date("Y"); ?> - Página sobre Back-End</p>
+        <p>&copy; <span id="ano"></span> - Página sobre Back-End</p>
     </footer>
+
+    <script>
+        // Atualiza o ano no footer automaticamente
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
 
 </body>
 </html>
