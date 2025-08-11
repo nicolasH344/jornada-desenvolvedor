@@ -1,9 +1,4 @@
-body {
-  background: #f5f6fa;
-  font-family: Arial, sans-serif;
-}
-
-.login-container {
+.register-container {
   background: #fff;
   max-width: 350px;
   margin: 80px auto;
@@ -13,12 +8,12 @@ body {
   text-align: center;
 }
 
-.login-container h2 {
+.register-container h2 {
   margin-bottom: 24px;
   color: #2d3436;
 }
 
-.login-container label {
+.register-container label {
   display: block;
   text-align: left;
   margin-bottom: 6px;
@@ -26,7 +21,7 @@ body {
   color: #636e72;
 }
 
-.login-container input {
+.register-container input {
   width: 100%;
   padding: 10px;
   margin-bottom: 18px;
@@ -35,7 +30,7 @@ body {
   font-size: 16px;
 }
 
-.login-container button {
+.register-container button {
   width: 100%;
   padding: 10px;
   background: #0984e3;
@@ -48,19 +43,18 @@ body {
   transition: background 0.2s;
 }
 
-.login-container button:hover {
+.register-container button:hover {
   background: #74b9ff;
 }
 
-.register-link {
+.login-link {
   margin-top: 16px;
   font-size: 14px;
 }
-.register-link a {
+.login-link a {
   color: #0984e3;
   text-decoration: none;
 }
-.register-link a:hover {
+.login-link a:hover {
   text-decoration: underline;
 }
-
