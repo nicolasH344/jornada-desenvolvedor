@@ -1,75 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O que é Back-End?</title>
-    <link rel="stylesheet" href="back.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O que é Back-End?</title>
+  <link rel="stylesheet" href="back.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-    <header>
-        <h1>O que é Back-End?</h1>
-    </header>
+  <header>
+    <h1>O que é Back-End?</h1>
+  </header>
 
-    <main>
-        <section class="resumo">
-            <p>
-                O <strong>Back-End</strong> refere-se à parte de um aplicativo ou site que lida com a <strong>lógica</strong> e o <strong>processamento de dados</strong>, funcionando nos bastidores — longe da interação direta com o usuário. Ou seja, é a parte que você não vê, mas que faz tudo funcionar corretamente.
-            </p>
-        </section>
+  <main>
+    <!-- RESUMO -->
+    <section class="resumo">
+      <p>
+        O <strong>Back-End</strong> é o cérebro por trás de tudo o que acontece em um site ou aplicativo. Ele é responsável por **processar dados**, **lidar com regras de negócio**, **interagir com bancos de dados**, e garantir que tudo o que o usuário faz no Front-End seja executado corretamente no servidor.
+      </p>
+      <p>
+        Pense no Back-End como a parte do iceberg que fica submersa. Você não vê, mas é o que mantém toda a estrutura de pé. Desde quando você faz login em uma conta, até quando envia uma mensagem ou realiza uma compra online — tudo isso passa por ele.
+      </p>
+    </section>
 
-        <section class="explicacao">
-            <h2>Explicação Simples</h2>
-            <p>
-                Imagine que você está pedindo um lanche por um aplicativo. O que você vê é o <strong>Front-End</strong>. Mas quem recebe seu pedido, processa e envia para a cozinha é o <strong>Back-End</strong>. Ou seja, ele faz tudo funcionar nos bastidores!
-            </p>
-        </section>
+    <!-- IMAGEM ILUSTRATIVA -->
+    <section class="imagem-backend">
+      <!-- Substitua o src por sua imagem -->
+      <img src="imagens/backend-ilustracao.png" alt="Ilustração Back-End" />
+    </section>
 
-        <section class="cards">
-            <h2>Linguagens Populares no Back-End</h2>
-            <div class="card-container">
-                <div class="card">
-                    <h3>PHP</h3>
-                    <p>Ampliamente usada na web, fácil de aprender e muito presente em sistemas como o WordPress.</p>
-                </div>
-                <div class="card">
-                    <h3>Python</h3>
-                    <p>Conhecida pela simplicidade, é usada no back-end e em áreas como inteligência artificial.</p>
-                </div>
-                <div class="card">
-                    <h3>Node.js</h3>
-                    <p>Permite usar JavaScript no servidor. Ideal para aplicações em tempo real e alta performance.</p>
-                </div>
-                <div class="card">
-                    <h3>Java</h3>
-                    <p>Popular em sistemas corporativos e aplicativos Android. É robusto, seguro e estável.</p>
-                </div>
-                <div class="card">
-                    <h3>Ruby</h3>
-                    <p>Fácil de ler e escrever, muito usada com o framework Ruby on Rails para desenvolvimento ágil.</p>
-                </div>
-            </div>
-        </section>
+    <!-- EXPLICAÇÃO COM ANALOGIA -->
+    <section class="explicacao">
+      <h2>Entendendo com um Exemplo Real</h2>
+      <p>
+        Imagine que você está usando um app de delivery. A tela onde você escolhe seu lanche, vê preços e faz o pedido é o <strong>Front-End</strong>. Agora, tudo o que acontece depois — como verificar se o lanche está disponível, calcular o tempo de entrega e enviar o pedido para o restaurante — é responsabilidade do <strong>Back-End</strong>.
+      </p>
+      <p>
+        É ele que faz a mágica acontecer, mesmo sem ser visto. Curioso, né? E isso é só o começo...
+      </p>
+    </section>
 
-        <section class="superlink">
-            <a href="https://www.alura.com.br/artigos/o-que-e-back-end" target="_blank">
-                🔗 Saiba mais sobre o Back-End
-            </a>
-        </section>
-    </main>
+    <!-- CARROSSEL DE LINGUAGENS -->
+    <section class="cards">
+      <h2>Linguagens Populares no Back-End</h2>
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="imagens/php.png" alt="PHP" />
+          <img src="imagens/python.png" alt="Python" />
+          <img src="imagens/node.png" alt="Node.js" />
+          <img src="imagens/java.png" alt="Java" />
+          <img src="imagens/ruby.png" alt="Ruby" />
+        </div>
+      </div>
+      <p class="quero-mais">
+        Essas são apenas algumas das principais linguagens... Mas o universo Back-End é muito mais vasto. Quer saber qual combina mais com seu estilo de programação?
+      </p>
+    </section>
 
-    <footer>
-        <p>&copy; <span id="ano"></span> - Página sobre Back-End</p>
-    </footer>
+    <!-- BOTÃO -->
+    <section class="superlink">
+      <a href="https://www.alura.com.br/artigos/o-que-e-back-end" target="_blank">
+        🔗 Descubra mais sobre o mundo Back-End
+      </a>
+    </section>
+  </main>
 
-    <script>
-        // Atualiza o ano no footer automaticamente
-        document.getElementById("ano").textContent = new Date().getFullYear();
-    </script>
+  <footer>
+    <p>&copy; <span id="ano"></span> - Página sobre Back-End</p>
+  </footer>
+
+  <script>
+    document.getElementById("ano").textContent = new Date().getFullYear();
+  </script>
 
 </body>
 </html>

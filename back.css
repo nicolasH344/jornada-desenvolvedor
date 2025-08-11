@@ -175,3 +175,53 @@ footer {
         padding: 15px;
     }
 }
+.imagem-backend {
+    text-align: center;
+    margin: 40px 0;
+}
+.imagem-backend img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.imagem-backend img:hover {
+    transform: scale(1.03);
+}
+
+/* Carrossel simples */
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.carousel-track {
+    display: flex;
+    gap: 20px;
+    animation: scrollCarousel 20s linear infinite;
+}
+.carousel-track img {
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+    padding: 10px;
+}
+
+@keyframes scrollCarousel {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.quero-mais {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #444;
+    text-align: center;
+}
