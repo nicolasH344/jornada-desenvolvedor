@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O que é Back-End?</title>
-    <link rel="stylesheet" href="back-end.css">
+  <link rel="stylesheet" href="back.css">
 </head>
 <body>
-
     <header>
         <h1>O que é Back-End?</h1>
     </header>
@@ -15,7 +14,7 @@
     <main>
         <section class="resumo">
             <p>
-                O <strong>Back-End</strong> é a parte invisível de um site ou aplicativo, onde tudo acontece por trás das cenas. Ele lida com <strong>bancos de dados</strong>, <strong>servidores</strong> e <strong>lógica de programação</strong> para garantir que tudo funcione corretamente.
+                O <strong>Back-End</strong>  refere-se à parte de um aplicativo ou site que lida com a lógica e o processamento de dados, funcionando nos bastidores, longe da interação direta do usuário. Em outras palavras, é a parte que você não vê, mas que torna tudo funcionando.  <strong>bancos de dados</strong>, <strong>servidores</strong> e <strong>lógica de programação</strong> para garantir que tudo funcione corretamente.
             </p>
         </section>
 
