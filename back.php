@@ -26,13 +26,12 @@
       </p>
     </section>
 
-    <!-- IMAGEM ILUSTRATIVA -->
+  
     <section class="imagem-backend">
       <!-- Substitua o src por sua imagem -->
-      <img src="imagens/backend-ilustracao.png" alt="Ilustração Back-End" />
+      <img src="Front-End Vs Back-end.jpg" alt="Ilustração Back-End" />
     </section>
 
-    <!-- EXPLICAÇÃO COM ANALOGIA -->
     <section class="explicacao">
       <h2>Entendendo com um Exemplo Real</h2>
       <p>
@@ -43,7 +42,6 @@
       </p>
     </section>
 
-    <!-- CARROSSEL DE LINGUAGENS -->
     <section class="cards">
       <h2>Linguagens Populares no Back-End</h2>
       <div class="carousel">
@@ -61,7 +59,6 @@
       </p>
     </section>
 
-    <!-- BOTÃO -->
     <section class="superlink">
       <a href="https://www.alura.com.br/artigos/o-que-e-back-end" target="_blank">
         🔗 Descubra mais sobre o mundo Back-End
